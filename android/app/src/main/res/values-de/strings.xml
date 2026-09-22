@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vision_notification_channel">Vision-Erkennungsstatus</string>
+    <string name="vision_notification_title">Chessnut Vision ist eingeschaltet</string>
+    <string name="vision_notification_active_title">Vision-Erkennung ist aktiv</string>
+    <string name="vision_notification_recognizing">Das Schachbrett auf dem Bildschirm wird erkannt. Tippen, um zu Chessnut zurückzukehren.</string>
+    <string name="vision_notification_ready">Bereit zur Erkennung, sobald Sie zu einer Schachbrett-App wechseln. Tippen, um zu Chessnut zurückzukehren.</string>
+    <string name="vision_notification_board">Warten auf die Verbindung mit einem Chessnut-Schachbrett. Tippen, um zu Chessnut zurückzukehren.</string>
+    <string name="vision_accessibility_required">Öffnen Sie Chessnut und erlauben Sie Vision den Zugriff über die Bedienungshilfen, bevor Sie Vision einschalten.</string>
+</resources>

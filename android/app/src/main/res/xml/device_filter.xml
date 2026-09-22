@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- USB HID 棋钟设备过滤器 -->
+    <!-- Chessnut 棋钟按钮 VID: 0x2d80 -->
+    <usb-device vendor-id="11648" />
+    <!-- 11648 = 0x2d80 的十进制形式 -->
+</resources>

@@ -1,0 +1,113 @@
+name: chessnut_flutter_export
+description: Chessnut Flutter frontend migration project.
+publish_to: "none"
+version: 1.0.3+10030
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  archive: ^4.0.9
+  chessground:
+    path: third_party/flutter-chessground
+  crypto: ^3.0.7
+  dartchess:
+    path: third_party/dartchess
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_svg: ^2.3.0
+  flutter_secure_storage: ^11.0.0
+  ffi: ^2.2.0
+  google_sign_in: ^7.2.0
+  http: ^1.6.0
+  http_parser: ^4.1.2
+  path_provider: ^2.1.6
+  package_info_plus: ^10.2.1
+  sign_in_with_apple: ^8.1.0
+  video_player: ^2.13.0
+  wakelock_plus: ^1.7.0
+  webview_flutter: ^4.14.0
+  webview_flutter_android: ^4.12.0
+  webview_windows: ^0.4.0
+  universal_ble:
+    path: third_party/universal_ble
+  url_launcher: ^6.3.2
+  in_app_review: ^2.0.12
+  in_app_purchase: ^3.2.1
+  in_app_purchase_android: ^0.5.0
+  file_selector: ^1.1.0
+  image_picker: ^1.1.2
+  stockfish:
+    path: third_party/stockfish
+  leela_chess_zero:
+    path: third_party/leela_chess_zero
+  flutter_animate: ^4.5.2
+  share_plus:
+    path: third_party/share_plus_no_windows
+  shared_preferences: ^2.5.3
+  audioplayers: ^6.7.1
+  sherpa_onnx: ^1.13.4
+  vision:
+    path: third_party/yolov5vision
+  firebase_core: ^4.11.0
+  firebase_crashlytics: ^5.2.4
+  firebase_analytics: ^12.4.3
+  flutter_launcher_icons: ^0.14.4
+  record: ^7.1.1
+  sqlite3: ^3.6.0
+
+dependency_overrides:
+  dartchess:
+    path: third_party/dartchess
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Plus Jakarta Sans
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/PlusJakartaSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/PlusJakartaSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PlusJakartaSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/PlusJakartaSans-ExtraBold.ttf
+          weight: 800
+    - family: MiSans
+      fonts:
+        - asset: assets/fonts/MiSans-Regular.otf
+          weight: 400
+        - asset: assets/fonts/MiSans-Medium.otf
+          weight: 500
+        - asset: assets/fonts/MiSans-Semibold.otf
+          weight: 600
+        - asset: assets/fonts/MiSans-Bold.otf
+          weight: 700
+    - family: Leslie
+      fonts:
+        - asset: assets/fonts/LESLIE-Regular.ttf
+          weight: 400
+  assets:
+    - assets/images/
+    - assets/images/boardpics/
+    - assets/avatars/
+    - assets/OPEN_SOURCE_NOTICES.txt
+    - assets/SUPERTONIC_3_MODEL_LICENSE.txt
+    - assets/MMS_TTS_HEBREW_MODEL_LICENSE.txt
+    - assets/maia_weights/
+    - assets/lc0_weights/
+    - assets/pieces/cburnett/
+    - assets/sounds/
+    - assets/sounds/voice/
+    - assets/tts/vits-piper-en_US-amy-low-int8.tar.bz2

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vision_notification_channel">Vision 認識状態</string>
+    <string name="vision_notification_title">Chessnut Vision はオンです</string>
+    <string name="vision_notification_active_title">Vision で認識中</string>
+    <string name="vision_notification_recognizing">画面上のチェス盤を認識しています。タップして Chessnut に戻ります。</string>
+    <string name="vision_notification_ready">チェス盤のアプリに切り替えると認識を開始します。タップして Chessnut に戻ります。</string>
+    <string name="vision_notification_board">Chessnut チェス盤の接続を待っています。タップして Chessnut に戻ります。</string>
+    <string name="vision_accessibility_required">Chessnut を開き、Vision のユーザー補助機能を許可してから Vision をオンにしてください。</string>
+</resources>

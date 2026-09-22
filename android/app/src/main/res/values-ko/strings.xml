@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vision_notification_channel">Vision 인식 상태</string>
+    <string name="vision_notification_title">Chessnut Vision이 켜져 있습니다</string>
+    <string name="vision_notification_active_title">Vision 인식 중</string>
+    <string name="vision_notification_recognizing">화면의 체스판을 인식하고 있습니다. 탭하여 Chessnut으로 돌아가세요.</string>
+    <string name="vision_notification_ready">체스판 앱으로 전환하면 인식을 시작합니다. 탭하여 Chessnut으로 돌아가세요.</string>
+    <string name="vision_notification_board">Chessnut 체스판 연결을 기다리고 있습니다. 탭하여 Chessnut으로 돌아가세요.</string>
+    <string name="vision_accessibility_required">Chessnut을 열고 Vision 접근성을 허용한 다음 Vision을 켜세요.</string>
+</resources>

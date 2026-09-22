@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vision_notification_channel">Starea recunoașterii Vision</string>
+    <string name="vision_notification_title">Chessnut Vision este activat</string>
+    <string name="vision_notification_active_title">Recunoașterea Vision este activă</string>
+    <string name="vision_notification_recognizing">Se recunoaște tabla de șah de pe ecran. Atinge pentru a reveni la Chessnut.</string>
+    <string name="vision_notification_ready">Recunoașterea va începe când treci la o aplicație de șah. Atinge pentru a reveni la Chessnut.</string>
+    <string name="vision_notification_board">Se așteaptă conectarea unei table Chessnut. Atinge pentru a reveni la Chessnut.</string>
+    <string name="vision_accessibility_required">Deschide Chessnut și permite accesul Vision la serviciile de accesibilitate înainte de a activa Vision.</string>
+</resources>

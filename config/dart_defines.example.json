@@ -1,0 +1,7 @@
+{
+  "CHESSNUT_TURNSTILE_SITE_KEY": "YOUR_TURNSTILE_SITE_KEY",
+  "GOOGLE_SERVER_CLIENT_ID": "YOUR_WEB_OAUTH_CLIENT_ID.apps.googleusercontent.com",
+  "APPLE_SERVICE_ID": "com.example.app.signin",
+  "APPLE_REDIRECT_URI": "https://your-api.example.com/apple/callback",
+  "CHESSNUT_ANDROID_PACKAGE_NAME": "com.example.app"
+}

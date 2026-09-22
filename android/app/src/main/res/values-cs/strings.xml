@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vision_notification_channel">Stav rozpoznávání Vision</string>
+    <string name="vision_notification_title">Chessnut Vision je zapnutý</string>
+    <string name="vision_notification_active_title">Rozpoznávání Vision je aktivní</string>
+    <string name="vision_notification_recognizing">Probíhá rozpoznávání šachovnice na obrazovce. Klepnutím se vrátíte do Chessnut.</string>
+    <string name="vision_notification_ready">Rozpoznávání začne po přepnutí do šachové aplikace. Klepnutím se vrátíte do Chessnut.</string>
+    <string name="vision_notification_board">Čeká se na připojení šachovnice Chessnut. Klepnutím se vrátíte do Chessnut.</string>
+    <string name="vision_accessibility_required">Otevřete Chessnut a povolte službě Vision přístup k funkcím usnadnění, než Vision zapnete.</string>
+</resources>

@@ -1,0 +1,101 @@
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+coverage/
+android/.gradle/
+ios/Pods/
+macos/Pods/
+windows/flutter/ephemeral/
+linux/flutter/ephemeral/
+*.iml
+*.log
+.DS_Store
+
+
+# Flutter / Dart build output
+**/build/
+**/.dart_tool/
+**/.packages
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
+**/coverage/
+
+# Android / Gradle generated files
+**/.gradle/
+**/android/.gradle/
+**/local.properties
+
+# Platform generated files
+**/windows/flutter/ephemeral/
+**/linux/flutter/ephemeral/
+**/macos/Flutter/ephemeral/
+**/ios/Pods/
+**/macos/Pods/
+
+# IDE and OS noise
+*.iml
+*.log
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local secrets and service credentials.
+**/.env
+**/.env.*
+**/*.jks
+**/*.keystore
+**/*.p12
+**/*.pfx
+**/*.pem
+**/*.key
+**/key.properties
+**/google-services.json
+**/GoogleService-Info.plist
+**/config.toml
+**/*.sql
+
+
+# Local app/backend runtime output.
+tool_tmp/
+fairyfish/
+
+
+# Build caches can appear inside vendored Flutter plugins too.
+**/.cxx/
+**/CMakeFiles/
+**/CMakeCache.txt
+**/compile_commands.json
+**/.ninja_deps
+**/.ninja_log
+
+# Python service local environments and caches.
+**/.venv/
+**/__pycache__/
+**/.pytest_cache/
+
+# Vendored plugin examples are useful locally, but not required by path deps.
+third_party/*/example/
+AGENTS.md
+
+# Local AI/tool settings may contain machine paths or credentials.
+.claude/
+
+# Firebase project-specific configuration. Generate with FlutterFire CLI.
+firebase.json
+lib/firebase_options.dart
+**/google-services.json
+**/GoogleService-Info.plist
+
+# Local build-time configuration.
+config/dart_defines.json
+**/Flutter/Secrets.xcconfig
+
+# SwiftPM/Xcode per-user state.
+**/.swiftpm/**/xcuserdata/

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Chessnut Grandeur coach avatar</title>
+  <desc id="desc">A polished virtual chess coach avatar for the Chessnut Grandeur analysis feature.</desc>
+  <defs>
+    <linearGradient id="bg" x1="80" y1="72" x2="432" y2="448" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#57c1ff"/>
+      <stop offset=".48" stop-color="#8b80ff"/>
+      <stop offset="1" stop-color="#111317"/>
+    </linearGradient>
+    <linearGradient id="jacket" x1="155" y1="344" x2="356" y2="475" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#18222b"/>
+      <stop offset=".58" stop-color="#253447"/>
+      <stop offset="1" stop-color="#0c1118"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="178" y1="126" x2="331" y2="318" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe0b8"/>
+      <stop offset=".55" stop-color="#e9ad78"/>
+      <stop offset="1" stop-color="#be704f"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000000" flood-opacity=".35"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="#07080a"/>
+  <rect x="28" y="28" width="456" height="456" rx="96" fill="url(#bg)"/>
+  <path d="M66 408c76 46 300 48 381-6v82H66z" fill="#050608" opacity=".34"/>
+  <circle cx="256" cy="235" r="150" fill="#f7f8f8" opacity=".08"/>
+  <g filter="url(#shadow)">
+    <path d="M137 439c19-83 75-125 119-125s100 42 119 125c-64 38-174 38-238 0z" fill="url(#jacket)"/>
+    <path d="M212 338l44 66 44-66c-14-11-72-11-88 0z" fill="#f7f8f8"/>
+    <path d="M238 364h36l-18 42z" fill="#c8ff5f"/>
+    <path d="M176 181c2-74 43-112 83-112 56 0 89 43 87 112l-17 14H194z" fill="#30231d"/>
+    <path d="M163 213c-14-2-25 9-23 25 3 20 16 32 34 31zm186 0c14-2 25 9 23 25-3 20-16 32-34 31z" fill="#d58b60"/>
+    <path d="M172 172c0-58 35-96 84-96s84 38 84 96v63c0 58-35 102-84 102s-84-44-84-102z" fill="url(#skin)"/>
+    <path d="M176 180c33-3 70-23 92-55 11 29 37 49 71 55-4-70-38-108-84-108-45 0-77 35-79 108z" fill="#2b211d"/>
+    <path d="M207 223c9-12 30-12 40 0m58 0c-9-12-30-12-40 0" fill="none" stroke="#26170f" stroke-width="10" stroke-linecap="round"/>
+    <path d="M238 269c11 9 25 9 36 0" fill="none" stroke="#8d4b36" stroke-width="8" stroke-linecap="round"/>
+    <path d="M207 296c28 22 70 22 98 0" fill="none" stroke="#783d30" stroke-width="10" stroke-linecap="round"/>
+    <path d="M182 152c15-68 119-94 160-7-42 8-107 2-160 7z" fill="#211915"/>
+    <path d="M161 159c60-34 126-42 190-7" fill="none" stroke="#c8ff5f" stroke-width="8" stroke-linecap="round"/>
+    <rect x="128" y="116" width="256" height="98" rx="49" fill="#0b1016" opacity=".18"/>
+    <path d="M178 427c28-15 52-23 78-23s50 8 78 23" fill="none" stroke="#57c1ff" stroke-width="8" stroke-linecap="round" opacity=".62"/>
+  </g>
+  <g transform="translate(352 86)">
+    <rect width="78" height="78" rx="24" fill="#f7f8f8"/>
+    <path d="M39 17v45M25 32h28" stroke="#07080a" stroke-width="8" stroke-linecap="round"/>
+    <path d="M20 63h38" stroke="#07080a" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>

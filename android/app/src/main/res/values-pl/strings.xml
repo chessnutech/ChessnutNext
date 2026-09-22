@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vision_notification_channel">Stan rozpoznawania Vision</string>
+    <string name="vision_notification_title">Chessnut Vision jest włączony</string>
+    <string name="vision_notification_active_title">Rozpoznawanie Vision jest aktywne</string>
+    <string name="vision_notification_recognizing">Trwa rozpoznawanie szachownicy na ekranie. Dotknij, aby wrócić do Chessnut.</string>
+    <string name="vision_notification_ready">Rozpoznawanie rozpocznie się po przejściu do aplikacji szachowej. Dotknij, aby wrócić do Chessnut.</string>
+    <string name="vision_notification_board">Oczekiwanie na połączenie z szachownicą Chessnut. Dotknij, aby wrócić do Chessnut.</string>
+    <string name="vision_accessibility_required">Otwórz Chessnut i zezwól Vision na dostęp do usług ułatwień dostępu, zanim włączysz Vision.</string>
+</resources>

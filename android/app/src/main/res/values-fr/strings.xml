@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vision_notification_channel">État de la reconnaissance Vision</string>
+    <string name="vision_notification_title">Chessnut Vision est activé</string>
+    <string name="vision_notification_active_title">Reconnaissance Vision en cours</string>
+    <string name="vision_notification_recognizing">Reconnaissance de l’échiquier à l’écran. Appuyez pour revenir à Chessnut.</string>
+    <string name="vision_notification_ready">La reconnaissance commencera lorsque vous passerez à une application d’échecs. Appuyez pour revenir à Chessnut.</string>
+    <string name="vision_notification_board">En attente de la connexion d’un échiquier Chessnut. Appuyez pour revenir à Chessnut.</string>
+    <string name="vision_accessibility_required">Ouvrez Chessnut et autorisez l’accès de Vision aux services d’accessibilité avant d’activer Vision.</string>
+</resources>

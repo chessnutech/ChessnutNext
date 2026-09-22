@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vision_notification_channel">Состояние распознавания Vision</string>
+    <string name="vision_notification_title">Chessnut Vision включён</string>
+    <string name="vision_notification_active_title">Распознавание Vision активно</string>
+    <string name="vision_notification_recognizing">Распознаётся шахматная доска на экране. Нажмите, чтобы вернуться в Chessnut.</string>
+    <string name="vision_notification_ready">Распознавание начнётся при переходе в приложение с шахматной доской. Нажмите, чтобы вернуться в Chessnut.</string>
+    <string name="vision_notification_board">Ожидание подключения доски Chessnut. Нажмите, чтобы вернуться в Chessnut.</string>
+    <string name="vision_accessibility_required">Откройте Chessnut и разрешите Vision доступ к специальным возможностям, прежде чем включать Vision.</string>
+</resources>

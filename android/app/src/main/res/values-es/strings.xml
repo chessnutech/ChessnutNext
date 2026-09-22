@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vision_notification_channel">Estado del reconocimiento Vision</string>
+    <string name="vision_notification_title">Chessnut Vision está activado</string>
+    <string name="vision_notification_active_title">Reconocimiento Vision en curso</string>
+    <string name="vision_notification_recognizing">Reconociendo el tablero en pantalla. Toca para volver a Chessnut.</string>
+    <string name="vision_notification_ready">El reconocimiento comenzará al cambiar a una aplicación de ajedrez. Toca para volver a Chessnut.</string>
+    <string name="vision_notification_board">Esperando la conexión de un tablero Chessnut. Toca para volver a Chessnut.</string>
+    <string name="vision_accessibility_required">Abre Chessnut y permite el acceso de Vision a los servicios de accesibilidad antes de activar Vision.</string>
+</resources>

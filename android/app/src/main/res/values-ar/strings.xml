@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vision_notification_channel">حالة التعرّف عبر Vision</string>
+    <string name="vision_notification_title">تم تشغيل Chessnut Vision</string>
+    <string name="vision_notification_active_title">التعرّف عبر Vision نشط</string>
+    <string name="vision_notification_recognizing">جارٍ التعرّف على رقعة الشطرنج على الشاشة. اضغط للعودة إلى Chessnut.</string>
+    <string name="vision_notification_ready">سيبدأ التعرّف عند الانتقال إلى تطبيق شطرنج. اضغط للعودة إلى Chessnut.</string>
+    <string name="vision_notification_board">في انتظار توصيل رقعة Chessnut. اضغط للعودة إلى Chessnut.</string>
+    <string name="vision_accessibility_required">افتح Chessnut واسمح لـ Vision بالوصول إلى خدمات تسهيل الاستخدام قبل تشغيل Vision.</string>
+</resources>

@@ -1,0 +1,50 @@
+Chessnut V3 Open Source Notices
+
+This app includes or interoperates with open-source chess software and services.
+See the app source repository and the upstream project links for complete source
+and license details.
+
+Bundled or linked components:
+
+- Stockfish chess engine
+  License: GNU GPL v3
+  Source: https://github.com/official-stockfish/Stockfish
+
+- Leela Chess Zero / lc0
+  License: GNU GPL v3
+  Source: https://github.com/LeelaChessZero/lc0
+
+- dartchess
+  License: GNU GPL v3
+  Source: https://github.com/lichess-org/dartchess
+
+- flutter-chessground
+  License: GNU GPL v3
+  Source: https://github.com/lichess-org/flutter-chessground
+
+- Maia 1 weights used with lc0-compatible play
+  License and source: see Maia Chess project notices
+  Source: https://github.com/CSSLab/maia-chess
+
+- Maia 3 inference service
+  License: GNU AGPL v3 for the independent inference microservice
+  Source boundary: https://github.com/chessnutech/chessnut-maia3-service
+  Upstream: https://github.com/CSSLab/maia3
+
+- Supertonic 3 text-to-speech model (downloaded on demand, not bundled)
+  Copyright: Supertone Inc.
+  License: OpenRAIL-M
+  Full model license: assets/SUPERTONIC_3_MODEL_LICENSE.txt
+  Model: https://huggingface.co/Supertone/supertonic-3
+  Sherpa ONNX integration: https://github.com/k2-fsa/sherpa-onnx
+
+- MMS Hebrew text-to-speech model (downloaded on demand, not bundled)
+  Model: facebook/mms-tts-heb, converted for Sherpa ONNX by thewh1teagle
+  License: Creative Commons Attribution-NonCommercial 4.0 International
+  License notice: assets/MMS_TTS_HEBREW_MODEL_LICENSE.txt
+  Model source: https://huggingface.co/facebook/mms-tts-heb
+  Sherpa ONNX conversion: https://huggingface.co/thewh1teagle/mms-tts-heb
+
+The Chessnut app may also connect to third-party services such as Lichess,
+Chess.com, Apple App Store, Google Play, Cloudflare Turnstile, and cloud hosting
+providers. Those services have their own terms and notices.

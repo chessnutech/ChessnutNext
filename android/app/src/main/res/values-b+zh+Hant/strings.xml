@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vision_notification_channel">Vision 識別狀態</string>
+    <string name="vision_notification_title">Chessnut Vision 已開啟</string>
+    <string name="vision_notification_active_title">Vision 正在識別</string>
+    <string name="vision_notification_recognizing">正在識別螢幕中的棋盤，點按返回 Chessnut。</string>
+    <string name="vision_notification_ready">切換到棋盤應用程式後開始識別，點按返回 Chessnut。</string>
+    <string name="vision_notification_board">等待連接 Chessnut 棋盤，點按返回 Chessnut。</string>
+    <string name="vision_accessibility_required">請先開啟 Chessnut 並啟用 Vision 無障礙權限，再開啟 Vision。</string>
+</resources>

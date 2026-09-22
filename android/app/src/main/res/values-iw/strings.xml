@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vision_notification_channel">מצב הזיהוי של Vision</string>
+    <string name="vision_notification_title">Chessnut Vision מופעל</string>
+    <string name="vision_notification_active_title">זיהוי Vision פעיל</string>
+    <string name="vision_notification_recognizing">לוח השחמט שעל המסך מזוהה כעת. יש להקיש כדי לחזור ל־Chessnut.</string>
+    <string name="vision_notification_ready">הזיהוי יתחיל במעבר לאפליקציית שחמט. יש להקיש כדי לחזור ל־Chessnut.</string>
+    <string name="vision_notification_board">ממתין לחיבור לוח Chessnut. יש להקיש כדי לחזור ל־Chessnut.</string>
+    <string name="vision_accessibility_required">יש לפתוח את Chessnut ולאפשר ל־Vision גישה לשירותי הנגישות לפני הפעלת Vision.</string>
+</resources>

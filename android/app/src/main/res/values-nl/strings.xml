@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vision_notification_channel">Status van Vision-herkenning</string>
+    <string name="vision_notification_title">Chessnut Vision staat aan</string>
+    <string name="vision_notification_active_title">Vision-herkenning is actief</string>
+    <string name="vision_notification_recognizing">Het schaakbord op het scherm wordt herkend. Tik om terug te gaan naar Chessnut.</string>
+    <string name="vision_notification_ready">De herkenning begint zodra je naar een schaakapp overschakelt. Tik om terug te gaan naar Chessnut.</string>
+    <string name="vision_notification_board">Wachten op verbinding met een Chessnut-bord. Tik om terug te gaan naar Chessnut.</string>
+    <string name="vision_accessibility_required">Open Chessnut en geef Vision toegang tot de toegankelijkheidsfuncties voordat je Vision inschakelt.</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_service_label">Chessnut Vision</string>
+    <string name="vision_notification_channel">Vision recognition status</string>
+    <string name="vision_notification_title">Chessnut Vision is on</string>
+    <string name="vision_notification_active_title">Vision recognition is active</string>
+    <string name="vision_notification_recognizing">Recognizing the on-screen chessboard. Tap to return to Chessnut.</string>
+    <string name="vision_notification_ready">Ready to recognize when you switch to a chessboard app. Tap to return to Chessnut.</string>
+    <string name="vision_notification_board">Waiting for a connected Chessnut board. Tap to return to Chessnut.</string>
+    <string name="vision_accessibility_required">Open Chessnut and enable Vision accessibility access before turning on Vision.</string>
+</resources>
