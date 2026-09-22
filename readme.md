@@ -26,7 +26,37 @@ build the app for Android, iOS, macOS, Windows, and Linux.
 - macOS: Xcode, CocoaPods, and a macOS 12.0 or newer deployment target
 - Windows or Linux native toolchains when building for those platforms
 
-Download the model files and install the Flutter dependencies from the project root:
+## Clone and Download Model Files
+
+This repository uses Git LFS for the Stockfish neural network files (`*.nnue`)
+and the embedded YOLO model (`third_party/yolov5vision/src/yolov8_bin.h`).
+The full model contents are required to build the native engines and vision plugin.
+
+### First-time clone
+
+Install [Git LFS](https://git-lfs.com/) before cloning. The `git lfs install`
+command below enables Git LFS for your user account; it does not install the
+Git LFS executable.
+
+```bash
+git lfs install
+git clone https://github.com/chessnutech/ChessnutNext.git
+cd ChessnutNext
+flutter pub get
+```
+
+With Git LFS enabled, a normal `git clone` automatically downloads the model
+files. A separate `git lfs pull` is normally unnecessary unless automatic LFS
+downloads were disabled or the download failed.
+
+### Already cloned without Git LFS
+
+Without Git LFS enabled, a clone may contain small text pointer files at the
+model paths instead of the actual model data. These placeholders cannot be
+used to build the project.
+
+Install Git LFS, then run the following from the existing project root to
+download the models and replace the pointers. You do not need to clone again.
 
 ```bash
 git lfs install
